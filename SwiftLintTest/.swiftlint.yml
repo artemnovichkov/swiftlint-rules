@@ -3,7 +3,6 @@ disabled_rules:
 opt_in_rules:
  - weak_delegate
  - explicit_enum_raw_value
- - file_header
 excluded:
   - Carthage/
 
@@ -13,9 +12,3 @@ colon:
   apply_to_dictionaries: false
 statement_position:
    statement_mode: uncuddled_else
-
-custom_rules:
-  new_line_cases:
-    name: "Cases on new line"
-    regex: "^\\s+case.*,([^()]*|.*\\(.*\\).*)$"
-    message: "Test message"

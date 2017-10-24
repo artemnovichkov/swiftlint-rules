@@ -33,3 +33,11 @@ fileprivate extension UserDefaults {
         set { set(newValue, forKey: #function) }
     }
 }
+
+enum Numbers {
+    case one(Int, Int)
+    case two(Int, Int), three(Int, Int)
+    case four, five
+    case six, seven(Int, Int)
+    case eight
+}
